@@ -143,6 +143,18 @@ You can specify the following options in module configuration.
         position = 'center'
     }
 
+.. note::
+    New in version 3.16
+
+You can specify the options in module or py3status configuration section.
+
+The following options requires ``i3bar-gaps`` and ``py3status``.
+
+``urgent_background``: Specify urgent background color for modules.
+You lose urgent functionality too that can be sometimes utilized by
+container modules, e.g., frame and group.
+
+
 Configuration obfuscation
 -------------------------
 Py3status allows you to hide individual configuration parameters so that they
