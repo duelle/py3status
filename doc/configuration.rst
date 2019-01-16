@@ -148,12 +148,16 @@ You can specify the following options in module configuration.
 
 You can specify the options in module or py3status configuration section.
 
-The following options requires ``i3bar-gaps`` and ``py3status``.
+The following options will work on ``i3bar-gaps``.
 
 ``urgent_background``: Specify urgent background color for modules.
-You lose urgent functionality too that can be sometimes utilized by
-container modules, e.g., frame and group.
 ``urgent_foreground``: Specify urgent foreground color for modules.
+``urgent_border``: Specify urgent border color for modules.
+``urgent_border_bottom``: Specify urgent border width for modules
+``urgent_border_left``: Specify urgent border width for modules.
+``urgent_border_right``: Specify urgent border width for modules.
+``urgent_border_top``: Specify urgent border width for modules.
+
 You lose urgent functionality too that can be sometimes utilized by
 container modules, e.g., frame and group.
 
